@@ -18,4 +18,4 @@ WORKDIR $SIA_DIR
 
 # Specify the Sia directory as /mnt/sia
 # And binds the api to 127.0.0.1:9980 to increase security.
-ENTRYPOINT printf "a\n" | ./siad --api-addr 127.0.0.1:9980 --disable-api-security --sia-directory /mnt/sia --authenticate-api
+ENTRYPOINT printf "a\n" | ./siad --sia-directory /mnt/sia --authenticate-api
