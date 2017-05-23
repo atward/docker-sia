@@ -1,11 +1,11 @@
-# Sia 
+# Sia
 
-This repository hold a Docker container for Sia. 
+This repository hold a Docker container for Sia.
 
-## Usage 
+## Usage
 
 ```
-docker run --name=sia -d -v /mnt/user/appdata/sia:/mnt/sia quay.io/arkan/sia:1.2.1
+docker run --name=sia -d -v /mnt/user/appdata/sia:/mnt/sia quay.io/arkan/sia:1.2.2
 ```
 
 ### Using CLI

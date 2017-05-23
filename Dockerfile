@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV SIA_VERSION 1.2.1
+ENV SIA_VERSION 1.2.2
 ENV SIA_PACKAGE Sia-v$SIA_VERSION-linux-amd64
 ENV SIA_ZIP ${SIA_PACKAGE}.zip
 ENV SIA_RELEASE https://github.com/NebulousLabs/Sia/releases/download/v$SIA_VERSION/$SIA_ZIP
