@@ -2,6 +2,7 @@
 datadir=/mnt/sia
 
 # https://github.com/NebulousLabs/Sia/issues/2215
+# TODO: confirm if fixed in 1.3.1
 tmpdir=$datadir/host/contractmanager
 if [[ -h $tmpdir ]]; then
   tmpfs-sync recover $tmpdir
